@@ -1,0 +1,49 @@
+/Proyecto-Informatico-F.P.-2024
+  /public
+    /css
+      style.css       # Hecho
+      admin.css       # Hecho
+      responsive.css  # Hecho
+    /js
+      main.js         # Hecho
+      admin.js        # Hecho
+      validation.js   # Hecho
+    /images           # Estructura creada, faltan las imágenes (logo.png, placeholder.png, profile_default.png)
+    index.php         # Hecho
+    login.php         # Hecho
+    logout.php        # Hecho
+    register.php      # Hecho
+    /admin
+      admin_dashboard.php  # Hecho
+
+  /src
+    /controllers
+      UsuarioController.php  # Hecho
+      NoticiaController.php  # Hecho
+      /admin
+        AdminUsuarioController.php  # Hecho
+        AdminNoticiaController.php  # Hecho
+    /models
+      UsuarioModel.php       # Hecho
+      NoticiaModel.php       # Hecho
+    /views
+      /usuario
+        usuario_lista.php    # Falta hacer
+      /admin
+        crear_noticia.php    # Hecho
+        editar_noticia.php   # Hecho
+        eliminar_noticia.php # Hecho
+        ver_noticia.php      # Hecho
+        ver_noticias.php     # Hecho
+
+  /config
+    conexion.php  # Hecho
+
+  /sql
+    create_tables.sql  # Hecho
+
+  .env          # Hecho
+  .gitignore    # Hecho
+  .gitattributes  # Hecho
+  composer.json # Falta hacer
+  README.md     # Falta hacer
