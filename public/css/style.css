@@ -1,0 +1,87 @@
+/* Resetear estilos por defecto del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* Color de fondo suave */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background: #a3d8f4; /* Azul pastel */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Contenedor */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Estilos de noticias */
+.news-article {
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.news-article h2 {
+    margin: 0 0 0.5rem 0;
+    color: #f39c92; /* Rosa pastel */
+}
+
+.news-article p {
+    margin: 0.5rem 0;
+    color: #7d93ab; /* Azul grisáceo */
+}
+
+/* Botones */
+button {
+    background-color: #ffd1dc; /* Rosa pastel claro */
+    color: #333;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffccd5; /* Rosa pastel más oscuro */
+}
+
+/* Enlaces */
+a {
+    color: #a3d8f4; /* Azul pastel */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos adicionales */
+footer {
+    background: #e8e8e8; /* Gris claro */
+    color: #333;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}

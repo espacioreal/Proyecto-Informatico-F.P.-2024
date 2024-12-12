@@ -1,0 +1,31 @@
+/* Estilos específicos para el área de administración */
+.admin-header {
+    background: #007bff;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.admin-header h1 {
+    margin: 0;
+}
+
+.admin-container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.admin-sidebar {
+    float: left;
+    width: 20%;
+    background: #f8f9fa;
+    padding: 1rem;
+    border-right: 1px solid #ddd;
+}
+
+.admin-content {
+    float: right;
+    width: 75%;
+    padding: 1rem;
+}
